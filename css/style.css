@@ -1,0 +1,106 @@
+/* Root */
+* {
+  padding: 0;  
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: #FFF;
+}
+
+h1 {
+  font-size: 3.052rem;
+  font-weight: lighter;
+}
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 10px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #FFC038;
+  padding: 13px 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background: #cc992c;
+}
+
+.large {
+  font-size: 1.4rem;
+}
+
+.bg-dark {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Nav */
+#navbar {
+  text-align: center;
+  padding: 30px;
+}
+
+#navbar img {
+  height: 100px;;
+}
+
+/* Subscription */
+#subscription {
+  text-align: center;
+  padding-top: 250px;
+}
+
+#subscription h1 {
+  padding: 20px;
+}
+
+#subscription p {
+  padding: 5px 200px 40px 200px;
+}
+
+#subscription input {
+  width: 30%;
+  padding: 15px;
+  border: 1px #ddd solid;
+  border-radius: 6px;
+  color: #4d4d4d;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Subscription */
+  #subscription {
+    padding-top: 80px;
+  }
+  #subscription p {
+    padding: 0px 0px 20px 0px;
+  }
+
+  #subscription input {
+    width: 90%;
+    margin-bottom: 5px;
+  }
+
+  .btn {
+    width: 90%;
+  }
+
+}
